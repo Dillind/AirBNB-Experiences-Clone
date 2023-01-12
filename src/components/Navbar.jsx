@@ -1,3 +1,11 @@
 export default function Navbar() {
-  return <h1>Hello World!</h1>;
+  return (
+    <nav>
+      <img
+        src="../src/img/airbnb-logo.png"
+        alt="airbnb logo"
+        className="nav--logo"
+      />
+    </nav>
+  );
 }
